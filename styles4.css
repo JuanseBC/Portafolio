@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.containermain {
+    background-color: #fff8e4;
+    position: absolute;
+    width: 225vh;
+    height: 100vh;
+}
+
+/*Diseño para el contenedor del titulo y la imagen*/
+.containertitle {
+    justify-content: center;
+    background-color: black;
+    margin: 0 auto;
+    width: 80%;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.containertitle .title {
+    padding-top: 200px;
+    width: 60%;
+    background-color: chartreuse;
+    font-weight: 900;
+    font-size: 210%;
+}
+
+.containertitle .imgportada {
+    background-color: blue;
+    width: 40%;
+}
+
+.containertitle img {
+    margin-top: 15%;
+    width: 65%;
+    height: 55%;
+    border-radius: 250px;
+    margin-bottom: 1%;
+}
+
+.containertitle .name {
+    padding-top: 2px;
+    background-color: rgb(255, 0, 0);
+    font-weight: 700;
+    font-size: 150%;
+}
+
+
+/* Diseño para el contenedor de la información y conocimientos.*/
+.cotainersecond {
+    /* box-shadow: 0 0 6px 0 rgba(255, 2, 2, 0.8); */
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+.cotainersecond .information {
+    margin-top: 3%;
+    padding: 18px;
+    box-shadow: 0 0 10px 0 rgb(255, 175, 2);
+}
+
+.cotainersecond .information .titleAboutMe {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.cotainersecond .information .aboutMe p {
+    margin-top: 0.8%;
+    font-size: large;
+}
